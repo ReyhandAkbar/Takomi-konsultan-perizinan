@@ -45,12 +45,20 @@ h2,
 }
 
 .logo-konsultan {
-  height: 52px;
-  width: auto;
+  height: 62px;
   object-fit: contain;
-  margin-left: 10px;
+  margin-left: 1px;
   margin-top: 5px;
 }
+
+@media (max-width: 768px) {
+  .logo-konsultan {
+    height: 48px;           /* Ukuran logo lebih kecil */
+    margin-left: -35px;         /* Sesuaikan margin */
+    margin-top: -2px;       /* Bisa disesuaikan juga */
+  }
+}
+
 
 .bg-white {
     background-color: var(--dark) !important /*bg header logo*/
@@ -186,6 +194,7 @@ h6,
 .navbar-light .navbar-toggler {
     color: #F6F6F6;
     border-color: #F6F6F6;
+
 }
 
 .navbar-light .navbar-toggler-icon {
