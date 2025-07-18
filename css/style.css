@@ -29,6 +29,12 @@ h2,
 }
 
 
+.bg-custom-gray {
+    background-color: #F3525A;
+  }
+
+
+  
 .mb-3-judul {
     color: var(--dark);
 }
