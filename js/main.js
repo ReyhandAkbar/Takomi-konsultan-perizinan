@@ -70,13 +70,13 @@
     e.preventDefault();
 
     const nama = document.getElementById("nama").value;
-    const email = document.getElementById("email").value;
+    const alamat = document.getElementById("alamat").value;
     const subject = document.getElementById("subject").value;
     const pesan = document.getElementById("pesan").value;
 
     const nomorWA = "6289523744187"; // Ganti dengan nomormu
 
-    const teks = `Halo, saya *${nama}* ingin konsultasi.%0A*Email:* ${email}%0A*Subject:* ${subject}%0A*Pesan:* ${pesan}`;
+    const teks = `Halo, saya *${nama}* ingin konsultasi.%0A*Email:* ${alamat}%0A*Subject:* ${subject}%0A*Pesan:* ${pesan}`;
     const url = `https://wa.me/${nomorWA}?text=${teks}`;
 
     console.log("Opening WA URL:", url);
