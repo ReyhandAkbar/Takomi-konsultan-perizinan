@@ -76,7 +76,7 @@
 
     const nomorWA = "6289523744187"; // Ganti dengan nomormu
 
-    const teks = `Halo, saya *${nama}* ingin konsultasi.%0A*Email:* ${alamat}%0A*Subject:* ${subject}%0A*Pesan:* ${pesan}`;
+    const teks = `Halo, saya *${nama}* ingin konsultasi.%0A*Alamat Domisili:* ${alamat}%0A*Keperluan Konsultasi:* ${subject}%0A*Pesan:* ${pesan}`;
     const url = `https://wa.me/${nomorWA}?text=${teks}`;
 
     console.log("Opening WA URL:", url);
