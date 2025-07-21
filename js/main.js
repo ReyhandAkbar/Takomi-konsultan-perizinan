@@ -58,7 +58,7 @@
     
 
     //Form
-  document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("formWa");
 
   if (!form) {
@@ -66,13 +66,46 @@
     return;
   }
 
+  const namaInput = document.getElementById("nama");
+  const alamatInput = document.getElementById("alamat");
+  const subjectInput = document.getElementById("subject");
+  const pesanInput = document.getElementById("pesan");
+
+  namaInput.oninvalid = function () {
+    this.setCustomValidity("Silakan isi nama lengkap Anda.");
+  };
+  namaInput.oninput = function () {
+    this.setCustomValidity("");
+  };
+
+  alamatInput.oninvalid = function () {
+    this.setCustomValidity("Silakan isi alamat domisili Anda.");
+  };
+  alamatInput.oninput = function () {
+    this.setCustomValidity("");
+  };
+
+  subjectInput.oninvalid = function () {
+    this.setCustomValidity("Silakan isi keperluan konsultasi.");
+  };
+  subjectInput.oninput = function () {
+    this.setCustomValidity("");
+  };
+
+  pesanInput.oninvalid = function () {
+    this.setCustomValidity("Silakan tuliskan pesan Anda.");
+  };
+  pesanInput.oninput = function () {
+    this.setCustomValidity("");
+  };
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    const nama = document.getElementById("nama").value;
-    const alamat = document.getElementById("alamat").value;
-    const subject = document.getElementById("subject").value;
-    const pesan = document.getElementById("pesan").value;
+    const nama = namaInput.value;
+    const alamat = alamatInput.value;
+    const subject = subjectInput.value;
+    const pesan = pesanInput.value;
 
     const nomorWA = "6289523744187"; // Ganti dengan nomormu
 
@@ -83,6 +116,7 @@
     window.open(url, "_blank");
   });
 });
+
 
 
 

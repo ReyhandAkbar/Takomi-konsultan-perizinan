@@ -82,7 +82,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 me-n3">
-                <a href="beranda.html" class="nav-item nav-link active">Beranda</a>
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
                 <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
                 <a href="service.html" class="nav-item nav-link">Layanan</a>
                 <div class="nav-item dropdown">
@@ -96,7 +96,7 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div> -->
                 </div>
-                <a href="kontak.html" class="nav-item nav-link">Kontak</a>
+                <!-- <a href="kontak.html" class="nav-item nav-link">Kontak</a> -->
             </div>
         </div>
     </nav>
@@ -148,14 +148,15 @@
     <!-- About Start -->
     <div class="container-fluid bg-secondary p-0">
         <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
+            <div class="col-lg-6 py-6 px-5 mx-auto">
                 <h1 class="display-5 mb-4">Selamat Datang di <span class="text-primary">Tukang Ijin Kompatibel Indonesia</span></h1>
                 <p class="fs-4 fw-bold mb-2">Kami bantu Anda mengurus berbagai perizinan usaha dengan cepat, aman, dan legal. Cocok untuk UMKM hingga perusahaan besar</p>
                 <p class="mb-4">Dengan pengalaman dan pemahaman mendalam terhadap regulasi terbaru, kami memastikan proses izin Anda berjalan cepat, tepat, dan sesuai hukum. Fokus pada bisnis Anda, biarkan urusan izin kami yang tangani.</p>
-                <a href="https://wa.me/628113137656" target="_blank"class="btn btn-primary py-md-3 px-md-5 rounded-pill">Hubungi Kami</a>
+                    <a href="about.html" type="button" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Kenali Kami Lebih Dekat</a>
+                
             </div>
-            <div class="col-lg-6">
-                <div class="h-100 d-flex flex-column justify-content-center bg-primary p-5">
+            <!-- <div class="col-lg-6 ">
+                <div class=" ">
                     <div class="d-flex text-white mb-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-secondary
                         text-dark rounded-circle mx-auto mb-4" style="width: 60px; height: 60px;">
@@ -189,7 +190,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- About End -->
     
 
@@ -295,8 +296,8 @@
                 <div class="d-block bg-primary h-100 text-center">
                     <img class="img-fluid" src="img-new-takomi/freepik__the-style-is-candid-image-photography-with-natural__21132.jpeg" alt="">
                     <div class="p-4">
-                        <p class="mb-4-cta">Jangan buang waktu mengurus izin sendirian. Serahkan pada tim kami yang sudah terbukti cepat, aman, dan hemat biaya. Kami siap bantu dari awal sampai izin terbit</p>
-                        <a href="https://wa.me/628113137656" target="_blank" class="btn btn-light py-md-3 px-md-5 rounded-pill mb-2">Hubungi Kami</a>
+                        <p class="mb-4-cta fs">Jangan buang waktu mengurus izin sendirian. Serahkan pada tim kami yang sudah terbukti cepat, aman, dan hemat biaya. Kami siap bantu dari awal sampai izin terbit</p>
+                        <a href="service.html" type="button" class="btn bg-custom-gray text-white py-md-3 px-md-5 rounded-pill mb-2 fs-4">Cek Detail & Biaya</a>
                     </div>
                 </div>
             </div>
@@ -431,9 +432,9 @@
                     <div class="testimonial-item">
                         <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Proses pengurusan NIB dan SIPA saya selesai dengan cepat. Timnya responsif dan sangat membantu dari awal sampai akhir.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" alt="">
+                            <img class="img-fluid rounded-circle" src="img/team-3.jpg" alt="">
                             <div class="ps-4">
-                                <h3>Abdul Manab</h3>
+                                <h3 class="text-dark">Abdul Manab</h3>
                                 <span class="text-uppercase">Owner PT Camry Z Land</span>
                             </div>
                         </div>
@@ -443,7 +444,7 @@
                         <div class="d-flex align-items-center">
                             <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" alt="">
                             <div class="ps-4">
-                                <h3>Cahyaningtyas</h3>
+                                <h3 class="text-dark">Cahyaningtyas</h3>
                                 <span class="text-uppercase">Pemiliki bangunan gedung</span>
                             </div>
                         </div>
@@ -453,7 +454,7 @@
                         <div class="d-flex align-items-center">
                             <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" alt="">
                             <div class="ps-4">
-                                <h3>Anto</h3>
+                                <h3 class="text-dark">Anto</h3>
                                 <span class="text-uppercase">Pengusaha Pabrik Rokok, Lawang Malang</span>
                             </div>
                         </div>
@@ -539,13 +540,58 @@
     </div> -->
     <!-- Blog End -->
     
+<!-- Contact Start -->
+    <div class="container-fluid bg-secondary px-0">
+        <div class="row g-0">
+            <div class="col-lg-6 py-6 px-5">
+                <h1 class="display-5 mb-4">Konsultasikan Segera Dengan Kami</h1>
+
+                <form id="formWa">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <input type="text" id="nama" class="form-control" placeholder="Nama Lengkap" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <input type="text" id="alamat" class="form-control" placeholder="Alamat Domisili" required>
+    </div>
+  </div>
+  <div class="mb-3">
+    <input type="text" id="subject" class="form-control" placeholder="Keperluan Konsultasi" required>
+  </div>
+  <div class="mb-3">
+    <textarea id="pesan" class="form-control" rows="5" placeholder="Pesan" required></textarea>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-primary w-100 py-3" type="submit">Kirim</button>
+
+  </div>
+</form>
+
+<div class="form-text text-muted fst-italic">*Form diatas otomatis terkirim ke WhatsApp.</div>
+
+
+            </div>
+            <div class="col-lg-6" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <iframe class="position-relative w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d234.78313126131079!2d112.57752383083782!3d-7.887169716026006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d-7.8871099!2d112.5774943!5e1!3m2!1sid!2sid!4v1753022386321!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
 
  <!-- Footer Start -->
     <div class="container-fluid  text-secondary p-5 bg-custom-gray ">
         <div class="row g-5">
             <div class="col-12 text-center">
                 <h1 class="display-5 mb-4 text-white">Legalitas Aman, Bisnis Nyaman.!</h1>
-                 <a href="https://wa.me/628113137656" target="_blank"class="btn btn-secondary py-md-3 px-md-5 rounded-pill fs-5">Segera Hubungi Kami</a>
+
+
+                 <!-- <a href="https://wa.me/628113137656" target="_blank"class="btn btn-secondary py-md-3 px-md-5 rounded-pill fs-5">Segera Hubungi Kami</a> -->
+
+
                 <!-- <form class="mx-auto" style="max-width: 600px;">
                     <div class="input-group">
                         <input type="text" class="form-control border-white p-3" placeholder="Your Email">
