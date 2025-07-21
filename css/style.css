@@ -28,6 +28,9 @@ h2,
     color: var(--secondary);
 }
 
+.bg-baru{
+    background-color: #F6F6F6
+}
 
 .bg-custom-gray {
     background-color: #F3525A;
