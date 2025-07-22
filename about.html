@@ -104,16 +104,20 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid bg-dark p-5">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="display-4 text-white">Tentang Kami</h1>
-                <a href="index.html">Beranda</a>
-                <i class="far fa-square text-primary px-2"></i>
-                <a href="about.html">Tentang Kami</a>
-            </div>
+   <div class="container-fluid p-5 text-white" 
+     style="background-image: url('img-new-takomi/flat-lay-business-concept.jpg'); background-size: cover; background-position: center; position: relative;">
+    <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+    <div class="row position-relative">
+        <div class="col-12 text-center">
+            <h1 class="display-4 text-white">Tentang Kami</h1>
+            <a href="index.html" class="text-white">Beranda</a>
+            <i class="far fa-square text-primary px-2"></i>
+            <a href="about.html" class="text-white">Tentang Kami</a>
         </div>
     </div>
+</div>
+
+
     <!-- Page Header End -->
 
 
@@ -201,7 +205,66 @@
     <!-- Team End -->
     
 
-   <!-- Footer Start -->
+   <!-- Contact Start -->
+    <div class="container-fluid bg-secondary px-0 mt-5">
+        <div class="row g-0">
+            <div class="col-lg-6 py-6 px-5">
+                <h1 class="display-5 mb-4">Konsultasikan Segera Dengan Kami</h1>
+
+                <form id="formWa">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <input type="text" id="nama" class="form-control" placeholder="Nama Lengkap" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <input type="text" id="alamat" class="form-control" placeholder="Alamat Domisili" required>
+    </div>
+  </div>
+  <div class="mb-3">
+    <input type="text" id="subject" class="form-control" placeholder="Keperluan Konsultasi" required>
+  </div>
+  <div class="mb-3">
+    <textarea id="pesan" class="form-control" rows="5" placeholder="Pesan" required></textarea>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-primary w-100 py-3" type="submit">Kirim</button>
+
+  </div>
+</form>
+
+<div class="form-text text-muted fst-italic">*Form diatas otomatis terkirim ke WhatsApp.</div>
+
+
+            </div>
+            <div class="col-lg-6" style="min-height: 400px;">
+  <div class="position-relative h-100">
+    <!-- Iframe Google Maps -->
+    <iframe
+      class="position-relative w-100 h-100"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d939.132699243978!2d112.57684826955025!3d-7.8870929995084635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7881006a2ff4db%3A0xe6b8024bf0993c96!2sKonsultan%20Perizinan!5e1!3m2!1sid!2sid!4v1753155401095!5m2!1sid!2sid"
+      width="600"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <!-- Link transparan di atas iframe -->
+    <a href="https://maps.app.goo.gl/yVqFqVZj6M7mNTbPA"
+       target="_blank"
+       style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:10;"
+       title="Klik untuk membuka di Google Maps">
+    </a>
+  </div>
+</div>
+
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+ <!-- Footer Start -->
     <div class="container-fluid  text-secondary p-5 bg-custom-gray ">
         <div class="row g-5">
             <div class="col-12 text-center">
@@ -220,8 +283,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-secondary p-5">
-        <div class="row g-5">
+    <div class="container-fluid bg-dark text-secondary p-5 ">
+        <div class="row justify-content-center g-5">
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Tautan Halaman</h3>
                 <div class="d-flex flex-column justify-content-start">
@@ -229,7 +292,7 @@
                     <a class="text-secondary mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>Tentang Kami</a>
                     <a class="text-secondary mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Layanan</a>
                     <!-- <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog Post</a> -->
-                    <a class="text-secondary" href="kontak.html"><i class="bi bi-arrow-right text-primary me-2"></i>Kontak Kami</a>
+                    <!-- <a class="text-secondary" href="kontak.html"><i class="bi bi-arrow-right text-primary me-2"></i>Kontak Kami</a> -->
                 </div>
             </div>
             <!-- <div class="col-lg-3 col-md-6">
